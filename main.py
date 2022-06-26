@@ -48,6 +48,7 @@ def play():
   play_again()
 
 def play_again():
+  clear()
   play_again_input = input("Do you want to play again? Type 'y' or 'n': ")
   if play_again_input == "y":
     player_cards.clear()
